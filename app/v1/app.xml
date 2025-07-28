@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+	Powered by Incredibox
+	Incredibox © So Far So Good
+	http://www.sofarsogood.fr
+	http://www.incredibox.com
+-->
+
+<!-- This is like the app.js file, just edit it like always -->
+
+<root>
+
+	<appInfo>
+		<name>Template</name>
+		<version>1</version>
+		<annee>2025</annee>
+		<duree>5.333</duree> <!-- loop time IN SECONDS -->
+		<frame>256</frame>
+		<bonusloopA>true</bonusloopA>
+		<volencode>0.8</volencode>  <!-- I dont even know what is this -->
+	</appInfo>
+
+<!-- Updated Pictos -->
+
+	<musique>
+
+		<son picto="picto0" posPicto="40,80"> <!-- Pos picto is the circle on the head that appears when the polo is loading -->
+			<swf>costume-v1/temp_polo.swf</swf> <!-- Polo SWF file -->
+			<mp3>sound-v1/temp_polo_a.mp3</mp3> <!-- Polo Sound file -->
+		</son>
+		<son picto="picto1" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto2" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto3" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto4" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+
+
+		<son picto="picto5" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto6" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto7" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto8" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto9" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+
+
+		<son picto="picto10" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto11" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto12" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto13" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto14" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+
+
+		<son picto="picto15" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto16" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto17" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto18" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+		<son picto="picto19" posPicto="40,80">
+			<swf>costume-v1/temp_polo.swf</swf>
+			<mp3>sound-v1/temp_polo_a.mp3</mp3>
+		</son>
+
+<!-- Idk if bonuses show up so lol -->
+
+		<sonBonus picto="bonus0">
+			<mp3>sound-v1/bonus/aspire.mp3</mp3>
+		</sonBonus>
+		<sonBonus picto="bonus1">
+			<mp3>sound-v1/bonus/lill-child.mp3</mp3>
+		</sonBonus>
+		<sonBonus picto="bonus2">
+			<mp3>sound-v1/bonus/wall-dance.mp3</mp3>
+		</sonBonus>
+		<sonBonus picto="bonus3">
+			<mp3>sound-v1/bonus/sunrise.mp3</mp3>
+		</sonBonus>
+
+	</musique>
+
+	<pathBonus loop="4">
+		<swf code="1,3,9,13,15" visible="0" name="Lill child">bonus-v1/lill-child.swf</swf>
+		<swf code="1,4,2,5,13" visible="0" name="Dance">bonus-v1/wall-dance.swf</swf>
+		<swf code="5,10,12,15,17" visible="0" name="Sunrise">bonus-v1/sunrise.swf</swf>
+	</pathBonus>
+
+	<pathPicto>
+		<swf>picto-v1.swf</swf>
+	</pathPicto>
+
+	<pathIntro>
+		<swf>intro-v1.swf</swf>
+	</pathIntro>
+
+	<pathLogo>
+		<swf>logo-v1.swf</swf>
+	</pathLogo>
+
+</root>
